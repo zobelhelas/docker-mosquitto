@@ -80,7 +80,7 @@ The example uses a docker volume named `mosquitto_data` (see above).
 
 ## Build
 
-    git clone https://github.com/toke/docker-mosquitto.git
+    git clone https://github.com/zobelhelas/docker-mosquitto.git
     cd docker-mosquitto
     docker build .
 
@@ -108,6 +108,6 @@ License: [BSD 3-Clause](https://tldrlegal.com/license/bsd-3-clause-license-%28re
 
 ## Contact
 
-Contact: Thomas Kerpe [toke@toke.de](mailto:toke@toke.de)
+Contact: Martin Zobel-Helas [zobel@debian.org](mailto:zobel@debian.org)
 
-OpenPGP fingerprint: `B5AD 7FCB 270D A762 46D2  A8F2 B0E6 5607 ABE5 7238`
+OpenPGP fingerprint: `6B18 5642 8E41 EC89 3D5D  BDBB 53B1 AC6D B11B 627B`
