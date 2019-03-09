@@ -10,7 +10,7 @@ Docker image for mosquitto
 
 ## Run
 
-    docker run -ti -p 1883:1883 -p 9001:9001 toke/mosquitto
+    docker run -ti -p 1883:1883 -p 9001:9001 zobel/mosquitto
 
 Exposes Port 1883 (MQTT) 9001 (Websocket MQTT)
 
@@ -40,7 +40,7 @@ persistent and change the configuration.
     -v /srv/mqtt/config:/mqtt/config:ro \
     -v /srv/mqtt/log:/mqtt/log \
     -v /srv/mqtt/data/:/mqtt/data/ \
-    --name mqtt toke/mosquitto
+    --name mqtt zobel/mosquitto
 
 Volumes: /mqtt/config, /mqtt/data and /mqtt/log
 
@@ -70,7 +70,7 @@ The example uses a docker volume named `mosquitto_data` (see above).
     [Service]
     Environment=EXT_IP=123.123.123.123
     Restart=always
-    ExecStart=/usr/bin/docker run -v /srv/mqtt/config:/mqtt/config -v /srv/mqtt/log:/mqtt/log -v mosquitto_data:/mqtt/data/ -p ${EXT_IP}:1883:1883 -p ${EXT_IP}:8883:8883 -p 127.0.0.1:9001:9001 --name mqtt toke/mosquitto
+    ExecStart=/usr/bin/docker run -v /srv/mqtt/config:/mqtt/config -v /srv/mqtt/log:/mqtt/log -v mosquitto_data:/mqtt/data/ -p ${EXT_IP}:1883:1883 -p ${EXT_IP}:8883:8883 -p 127.0.0.1:9001:9001 --name mqtt zobel/mosquitto
     ExecStop=/usr/bin/docker stop -t 2 mqtt
     ExecStopPost=/usr/bin/docker rm -f mqtt
 
