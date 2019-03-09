@@ -3,9 +3,9 @@ docker-mosquitto
 
 Docker image for mosquitto
 
-[![Docker Stars](https://img.shields.io/docker/stars/toke/mosquitto.svg)](https://hub.docker.com/r/toke/mosquitto/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/toke/mosquitto.svg)](https://hub.docker.com/r/toke/mosquitto/)
-[![](https://images.microbadger.com/badges/image/toke/mosquitto.svg)](https://microbadger.com/images/toke/mosquitto "Get your own image badge on microbadger.com")
+[![Docker Stars](https://img.shields.io/docker/stars/zobel/docker-mosquitto.svg)](https://hub.docker.com/r/zobel/docker-mosquitto/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/zobel/docker-mosquitto.svg)](https://hub.docker.com/r/zobel/docker-mosquitto/)
+[![](https://images.microbadger.com/badges/image/zobel/docker-mosquitto.svg)](https://microbadger.com/images/zobel/docker-mosquitto "Get your own image badge on microbadger.com")
 
 
 ## Run
